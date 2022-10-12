@@ -1,3 +1,40 @@
 body {
 background-color: antiquewhite;
 }
+
+.logo {
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.hero {
+  background-color: aqua;
+  height: 100vh;
+  color: aliceblue;
+  font-size: 40px;
+}
+
+footer {
+  background-color: aliceblue;
+  color: black;
+  text-align: center;
+  padding: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+li {
+  text-decoration: none;
+}
