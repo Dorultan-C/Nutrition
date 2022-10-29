@@ -1,6 +1,6 @@
 body {
-background-color: antiquewhite;
-font-family: 'Great Vibes', cursive;
+background-color: rgb(31, 17, 95);
+/* font-family: 'Great Vibes', cursive; */
 }
 
 .logo {
@@ -38,4 +38,29 @@ ul {
 
 li {
   text-decoration: none;
+}
+
+.main-footer {
+  background-color: #56CCF2;
+  color: aliceblue;
+  padding: .30em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 .2em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
 }
