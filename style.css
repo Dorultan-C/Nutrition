@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  color: aliceblue;
+}
+
 body {
 background-color: rgb(31, 17, 95);
 /* font-family: 'Great Vibes', cursive; */
@@ -9,11 +14,32 @@ background-color: rgb(31, 17, 95);
   margin-left: 50px;
 }
 
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a:hover {
+  background-color: rgb(90, 90, 79);
+  border-radius: 10%;
+  margin: 4px;
+}
+
+
 .hero {
   
   height: 100vh;
   color: aliceblue;
   font-size: 40px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
 }
 
 footer {
@@ -57,10 +83,26 @@ li {
 }
 
 .footer-nav li {
-  padding: 0 .2em;
+  padding: 0 2em;
+  
 }
 
 .footer-nav img {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+/* .fa-brands {
+  margin-left: 40px;
+} */
+
+.band-name {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
 }
