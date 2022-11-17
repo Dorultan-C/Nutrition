@@ -4,13 +4,19 @@
 }
 
 body {
-background-color: rgb(31, 17, 95);
+background-color: rgb(178, 204, 179);
 /* font-family: 'Great Vibes', cursive; */
 }
 
-.logo {
+.logo-header {
   height: 100px;
   margin-top: 50px;
+  margin-left: 50px;
+}
+
+.logo-footer {
+  height: 100px;
+  margin-bottom: 50px;
   margin-left: 50px;
 }
 
@@ -31,7 +37,7 @@ background-color: rgb(31, 17, 95);
 
 .hero {
   
-  height: 100vh;
+  height: 10vh;
   color: aliceblue;
   font-size: 40px;
 }
